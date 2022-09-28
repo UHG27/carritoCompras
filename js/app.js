@@ -14,6 +14,6 @@ function cargarEventListener(){
 
 function agregarCurso(e){
     if(e.target.classList.contains('agregar-carrito')){
-console.log("Presionaste el boton");
+console.log(e.target);
     }
 }
